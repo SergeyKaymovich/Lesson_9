@@ -42,6 +42,7 @@ public class HomeWork9 {
                 System.out.println("Do the array strings match?");
                 System.out.println(StringUtils.contains(string, string2));
             }
+            default -> System.out.println("Wrong input.");
         }
     }
 }
