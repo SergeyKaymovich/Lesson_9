@@ -18,7 +18,7 @@ public class HomeWork9 {
         System.out.println(info);
         Scanner scanner = new Scanner(System.in);
         int input = scanner.nextInt();
-//        char[] string1 = scanner.nextLine().toCharArray();
+        char[] string1 = scanner.nextLine().toCharArray();
         switch (input) {
             case (1) -> {
                 System.out.println("Input string");
@@ -30,7 +30,7 @@ public class HomeWork9 {
                 System.out.println("Input string");
                 char[] string = scanner.nextLine().toCharArray();
                 print(string);
-                System.out.println("The array consists of characters of the Russian alphabet?");
+                System.out.println("  The array consists of characters of the Russian alphabet?");
                 System.out.println(StringUtils.isRussian(string));
             }
             case (3) -> {

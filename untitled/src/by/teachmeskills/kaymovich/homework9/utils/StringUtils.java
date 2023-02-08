@@ -2,6 +2,9 @@ package by.teachmeskills.kaymovich.homework9.utils;
 
 public class StringUtils {
     public static void print(char[] array) {
+//        for (int i= 0; i <array.length; i++){
+//            System.out.println(array[i]);
+//        }
         for (char sym : array) {
             System.out.print(sym);
         }
@@ -9,7 +12,7 @@ public class StringUtils {
 
     public static void println(char[] array) {
         print(array);
-        System.out.print('\n');
+        System.out.println();
     }
 
     public static boolean isBlank(char[] array) {
